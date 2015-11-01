@@ -1,0 +1,31 @@
+{
+  "name": "broccoli-beml",
+  "version": "0.1.2",
+  "description": "Plugin for processing BEML templates.",
+  "keywords": [
+    "broccoli",
+    "broccoli-plugin",
+    "BEM",
+    "BEML"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Gavshin <inzephirum@gmail.com>",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Inzephirum/broccoli-beml"
+  },
+  "homepage": "https://github.com/Inzephirum/broccoli-beml",
+  "bugs": {
+    "url": "https://github.com/Inzephirum/broccoli-beml/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "beml": "^1.2.3",
+    "broccoli-kitchen-sink-helpers": "^0.3.1",
+    "broccoli-writer": "^0.1.1",
+    "mkdirp": "^0.5.1"
+  }
+}
